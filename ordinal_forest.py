@@ -27,6 +27,9 @@ features plus a random subset of the remaining features, and the tree then has a
 to all features in that subspace at every split.
 """
 
+__version__ = "1.0.0"
+__author__ = "Tetsuo Ishikawa"
+
 from dataclasses import dataclass
 import inspect
 from math import factorial
